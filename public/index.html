@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- logo -->
+
+    <link rel="icon" href="pngtree-beautiful-admin-roles-line-vector-icon-png-image_2035379.jpg">
+
+
+    
+
+
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Awesome font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"  />
+    <link rel="stylesheet" href="index.css">
+    
+  
+   
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin login</title>
+    <head>
+      
+    </head>
+  </head>
+  <body>
+    <div class="container" id="login-form">
+      <form>
+        <div class="input-prepend">
+          <!-- <h3>Sign In or Create a New account</h3> -->
+          <span class ="add-on"><i class="fa-solid fa-envelope fa-2xl"></i></span>
+          <input
+            class="span2"
+            type="email"
+            id="InputEmail"
+            placeholder="Email address"
+          />
+        </div><br>
+        <div class="input-prepend">
+          <span class="add-on"><i class="fa-solid fa-key fa-2xl"></i></span>
+          <input
+          class="span2"
+
+            type="password"
+            id="InputPassword"
+            placeholder="Password"
+          />
+        </div>
+        <br>
+        <a id="sign-in-button" href="#"><i class="fa-solid fa-arrow-right-to-bracket fa-2xl" style='color:#63b34b'></i>  Sign in</a>
+        <br><br>
+        <a id="create-newuser-button" href="#"><i class="fa-solid fa-at fa-2xl" style='color:#ebc908'></i>  New account</a>
+        <br><br>
+        <a id="google-login-button"  href="#"><i class="fa-brands fa-google fa-2xl" style='color:#d60f29'></i>  Sign in with Google </a>
+      </form>
+    </div>
+    <br>
+
+
+
+
+    
+
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    
+
+    <!-- Add additional services that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-functions.js"></script>
+  
+   
+
+  <script src="firebase.js"></script>
+  <script src="index.js"></script>
+ 
+  </body>
+</html>
+

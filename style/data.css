@@ -1,0 +1,72 @@
+body {
+  width: 100% ;
+  position: relative;
+  background-image: url(data-background.png);
+}
+
+.item{
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+.item a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.item a :hover{
+  color: rgb(23, 206, 219);
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}  
+.container{
+  margin: auto;
+  width: 70%;
+  border: 3px solid rgb(20, 161, 154);
+  padding: 10px;
+  
+
+}  
+.bottom{
+  margin: auto;
+  width: 70%;
+  border: 3px solid rgb(16, 146, 155);
+  padding: 10px;
+
+}
+#branches {
+  float: right;
+  width: 25%;
+}
+#years {
+    float: left;
+    width: 25%;
+  }
+
+
+#upload {
+  position: absolute;
+  bottom: px;
+  right: 250px;
+}
+h4 {
+  text-align: center;
+  color: rgb(7, 8, 8);
+}

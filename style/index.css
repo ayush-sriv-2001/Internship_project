@@ -1,0 +1,17 @@
+
+  body {
+    background-image: url(cool-background.png);
+    background-color: #3a81aa;
+  }
+
+.container {
+    
+        height: 500px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    
+
+}
